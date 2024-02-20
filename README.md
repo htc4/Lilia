@@ -9,7 +9,8 @@
 │   │   └── 
 │   ├── js
 │   │   └── header.js
-│   └── navigation.html
+│   └── html
+|   |   └── header.html
 ├── Sign-in
 |   ├── sign-in.html
 |   ├── sign-in.css
