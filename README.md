@@ -73,5 +73,5 @@
 
 ## Overview
 
-"Lighting" is a website for home design with lights that includes chandeliers, spots sconces, desk and floor lamps and pendants.
+"Lighting" is a website for home design with lights that includes chan deliers, spots, sconces, pendants, desk and floor lamps.
 
