@@ -67,3 +67,11 @@
 | HTML               |       5     |               |
 | CSS                |       3     |               |
 | JavaScript         |       5     |               |
+
+
+```
+
+## Overview
+
+"Lighting" is a website for home design with lights that includes chandeliers, spots sconces, desk and floor lamps and pendants.
+
