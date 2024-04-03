@@ -1,6 +1,7 @@
-```
+
 # Lighting
 ## Page Structure...
+```
 .
 ├── Components
 │   ├── css
