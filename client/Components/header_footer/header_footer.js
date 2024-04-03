@@ -13,7 +13,7 @@ function createHeader() {
   } else {
     header.innerHTML = `
           <div class="header1">
-              <a href="index.html"><span class="log_out">Log out</span></a>
+              <a href="../index.html"><span class="log_out">Log out</span></a>
               <img class="lighting" src="../Components/images/lighting.png">
           </div>`;
     //   header.innerHTML = `
