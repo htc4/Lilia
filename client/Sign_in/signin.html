@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="./signin.css" />
+    <link rel="stylesheet" href="../Components/css/header_footer.css" />
+    <script src="./signin.js"></script>
+    <!-- <link rel="stylesheet" href="./draft.css"> -->
+  </head>
+  <body>
+    <div class="main_content">
+      <div class="arrow_container">
+        <a href="../index.html">
+          <img class="arrow" src="../Images/arrow_white.png" alt="" />
+        </a>
+      </div>
+      <div class="left">
+        <img class="company_name" src="../Images/company_name.png" alt="" />
+        <img class="light_big" src="../Images/light_big.png" alt="" />
+      </div>
+
+      <div class="right">
+        <p class="signin">Sign in</p>
+        <div class="fields">
+          <label for="username">username</label>
+          <input type="text" id="username" name="username" required /><br />
+          <label for="password">password</label>
+          <input type="password" id="password" name="password" required /><br />
+        </div>
+        <div class="bottom">
+          <p>
+            if you don’t have an account,
+            <a href="../Sign_up/signup.html"><span>Sign up</span></a>
+          </p>
+          <button class="signin_button" onclick="NavigateToCollection()">
+            Sign in
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="../Components/js/header_footer.js"></script>
+  </body>
+</html>

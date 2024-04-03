@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: rgba(241, 240, 237, 1);
     /* display: flex;
-      justify-content: center; */
+        justify-content: center; */
   }
   
   p {
@@ -16,7 +16,7 @@ body {
   }
   
   a {
-      text-decoration: none;
+    text-decoration: none;
   }
   
   .main_content {
@@ -31,15 +31,15 @@ body {
   }
   
   .arrow_container {
-      position: absolute;
-      left: 55%;
-      top: 3%;
-      z-index: 1;
+    position: absolute;
+    left: 55%;
+    top: 3%;
+    z-index: 1;
   }
   
   /* .arrow {
-      position: relative;
-  } */
+        position: relative;
+    } */
   
   .left {
     width: 53%;
@@ -59,7 +59,7 @@ body {
   
   .right {
     /* right: 0;
-    top: 0; */
+      top: 0; */
     height: 100%;
     width: 47%;
     position: relative;
@@ -70,7 +70,7 @@ body {
     align-items: center;
   }
   
-  .signup {
+  .order {
     position: relative;
     top: 2%;
     font-size: 56px;
@@ -97,26 +97,27 @@ body {
   }
   
   input[type="text"],
-  input[type="password"] {
+  input[type="password"],
+  input[type="number"] {
     width: 100%;
     /* height: 10%; */
     padding: 3%;
     margin: 5px 0;
   }
   
-  .bottom {
-      top: 70%;
-      height: 30%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
+  /* .bottom {
+        top: 70%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
   
-  .signup_button {
+  .order_button {
     position: relative;
     /* align-self: center; */
-    height: 25%;
-    width: 40%;
+    height: 8%;
+    width: 20%;
     /* left: 0; */
     /* top: 57%; */
     font-size: 28px;
