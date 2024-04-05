@@ -27,7 +27,15 @@ function createCards() {
     }
     if (my_url.endsWith('chandeliers.html')) {
         main_container.innerHTML = `
-        <p class="title">Chandeliers</p>
+        <link rel="stylesheet" href="../Components/like_button/like_button.css" />
+        <div class="top">
+          <a href="../Collection/collection.html">
+            <img src="../Components/images/arrow_black.png"/>
+          </a>
+          <p class="title">Chandeliers</p>
+          <div id="like"></div>
+          <script src="./Components/like-button/like_button.js"></script>
+        </div>
         <div class="cards">
           <a href="../Chandeliers/chandeliers.html">
             <img src="../Components/images/chandeliers1.png" alt="" />

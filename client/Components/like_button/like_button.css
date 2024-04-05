@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* min-height: 100%; */
+}
+
+body {
+  background: #111;
+  position: relative;
+}
+
+.button {
+  width: 100px;
+  height: 90px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.button:before,
+.button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: dimgrey;
+  border-radius: 46% 46% 0 0;
+  transform: rotate(-45deg);
+  transition: background 0.5s ease;
+}
+
+.button:after {
+  left: 23%;
+  transform: rotate(45deg);
+}
+
+.button.active:before,
+.button.active:after {
+  background: red;
+}
