@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: rgba(241, 240, 237, 1);
+  display: flex;
+  align-items: center;
+}
+
+.main_content {
+  height: 70%;
+  top: 21%;
+  width: 50%;
+  left: 25%;
+  position: absolute;
+  /* align-self: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

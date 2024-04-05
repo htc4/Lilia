@@ -1,0 +1,38 @@
+p {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cards {
+  width: 100%;
+  position: relative;
+  /* align-self: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8%;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.title {
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin: 2%;
+  margin-right:39%;
+}
+
+.back {
+  margin-left: -620%;
+}
