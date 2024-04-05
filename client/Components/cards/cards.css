@@ -20,11 +20,19 @@ a {
 .top {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
 }
-
 
 .title {
   font-size: 40px;
   letter-spacing: 4px;
   margin: 2%;
+  margin-right:39%;
+}
+
+.back {
+  margin-left: -620%;
 }

@@ -8,13 +8,17 @@ function createHeader() {
                   <a href="./Sign_in/signin.html"><span class="s1">Sign in</span></a>
                   <a href="./Sign_up/signup.html"><span class="s1">SIgn up</span></a>
               </p>
-              <img class="lighting" src="Components/images/lighting.png">
+              <a href="../Collection/colletion.html">
+                <img class="lighting" src="Components/images/lighting.png">
+              </a>
           </div>`;
   } else {
     header.innerHTML = `
           <div class="header1">
               <a href="../index.html"><span class="log_out">Log out</span></a>
-              <img class="lighting" src="../Components/images/lighting.png">
+              <a href="../Collection/colletion.html">
+                <img class="lighting" src="../Components/images/lighting.png">
+              </a>
           </div>`;
     //   header.innerHTML = `
     //   <div class="header1">
